@@ -1,3 +1,19 @@
+/* class uses . and is reusable */
 .odd{
-    background-color: pink;
+    background-color: rgb(255, 169, 181);
+    font-family: "Verdana", "DejaVu sans", sans-serif;
+}
+/* 3rd element affected by this */
+.adjust-font-size{
+    font-size: 24px;
+}
+/* ID uses # and not . */
+#second{
+    color: blue;
+    font-size: 36px;
+}
+#fourth{
+    background-color: rgb(143, 255, 143);
+    font-size: 24px;
+    font-weight: bold;
 }
