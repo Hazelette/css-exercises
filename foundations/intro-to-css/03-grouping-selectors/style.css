@@ -1,0 +1,17 @@
+/* This is shared between both buttons */
+.click1, .click2{
+    font-size: 28px;
+    font-family: "Helvetica", "Times New Roman", sans-serif;
+}
+
+/* This is for the first button */
+.click1{
+    background-color: black;
+    color: white;
+}
+
+/* This is for the second button */
+.click2{
+    background-color: yellow;
+    color: black;
+}
