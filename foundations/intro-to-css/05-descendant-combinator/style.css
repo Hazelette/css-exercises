@@ -1,3 +1,4 @@
+/* .text ensures blank white spaces aren't colored */
 .container .text{
     background-color: yellow;
     color: red;

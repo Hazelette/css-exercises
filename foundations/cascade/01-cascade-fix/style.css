@@ -6,17 +6,17 @@ body {
 .small-para {
   color: hsl(0, 0%, 0%);
   font-weight: 800;
-}
-
-.small-para {
-  font-size: 14px;
-  font-weight: 800;
+  
 }
 
 .para {
   font-size: 22px;
 }
-
+/* put small para after para so it doesn't override para with smaller font size */
+.small-para {
+  font-size: 14px;
+  font-weight: 800;
+} 
 .confirm {
   background: green;
   color: white;
