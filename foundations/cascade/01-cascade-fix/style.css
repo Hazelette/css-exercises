@@ -17,19 +17,21 @@ body {
   font-size: 14px;
   font-weight: 800;
 } 
-.confirm {
-  background: green;
-  color: white;
-  font-weight: bold;
-} 
 
 .button {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
 }
+/* move confirm below button since confirm is a more specific class and will override button */
+.confirm {
+  background: green;
+  color: white;
+  font-weight: bold;
+} 
 
-.child {
+/* Added .text to this since HTML file states it is both text and child, and fix applied to match desired output */
+.text .child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
