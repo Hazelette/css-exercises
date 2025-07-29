@@ -5,7 +5,7 @@ body {
 img {
   width: 100px;
   height: 100px;
-  margin-top: 32px;
+  margin-top: 32px; /* space between title and images */
 }
 
 .title {
