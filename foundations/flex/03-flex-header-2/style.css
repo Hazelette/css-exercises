@@ -15,8 +15,7 @@ body {
   /* edit since this is the left side */
   display: flex;
   justify-content: space-between;
-  padding: 8px;
-  /* remove default margin and padding like previous exercise */
+  padding: 8px; /* add padding for spacing between edge of screen */
 }
 
 .profile-image {
@@ -53,10 +52,13 @@ ul {
   /* make this list horizontal using flex */
   display: flex;
   gap: 16px;
+  /* remove default margin and padding from ul */
+  margin: 0;
+  padding: 0;
 }
 /* We added left and right div to separate containers, so make them flex too */
 .left, .right {
   display: flex;
   align-items: center;
-  
+  gap: 16px; /* since margin and padding is removed, we need a gap between list  */
 }
