@@ -12,6 +12,11 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  /* edit since this is the left side */
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  /* remove default margin and padding like previous exercise */
 }
 
 .profile-image {
@@ -45,4 +50,13 @@ a {
 
 ul {
   list-style-type: none;
+  /* make this list horizontal using flex */
+  display: flex;
+  gap: 16px;
+}
+/* We added left and right div to separate containers, so make them flex too */
+.left, .right {
+  display: flex;
+  align-items: center;
+  
 }
