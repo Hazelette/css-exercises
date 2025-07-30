@@ -39,12 +39,14 @@ ul{
   /* this removes bullet points */
   display: flex;
   gap: 16px;
+  /* removing default values of padding and margin also sticks list items to top and bottom */
 }
 
 /* link styling */
 a {
   color: #666;
   text-decoration: none;
+  /* this removes the underline and color to match desired outcome. */
 }
 /* this ensures that header and footer are spaces properly on top and bottom */
 .header,.footer {
