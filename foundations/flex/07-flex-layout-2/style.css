@@ -41,7 +41,6 @@ body {
   /* sidebar styling */
   flex-shrink: 0; /* prevents sidebar from shrinking */
   padding: 16px;
-
 }
 
 .card {
@@ -49,8 +48,19 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+/* unordered list styling to remove bullet points */
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  /* this removes bullet points and default values */
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  gap: 16px;
+}
 /* remove link decorations and change color */
-.a {
+a {
   text-decoration: none;
   color: white;
 }
