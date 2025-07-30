@@ -21,8 +21,8 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   /* added styles appropriately */
-  padding: 16px;
   display: flex;
+  padding: 16px;
   gap: 16px; /* space between icon and text */
   /* after this, icon will shrink, so need to prevent it */
 
@@ -62,8 +62,7 @@ button {
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
-  /* add a margin between text and buttons */
-  margin-top: 16px; /* space between text and buttons */
+  /* margin-top: 16px;  this breaks alignment between header and x */
 }
 
 button.continue {
@@ -83,4 +82,10 @@ button.cancel {
   justify-content: space-between;
   font-weight: 700;
   font-size: 18px;
+  /* now add a margin to bottom of header */
+  margin-bottom: 8px;
+}
+.text{
+  margin-bottom: 16px; 
+  /* this was better then adding a margin to button */
 }
