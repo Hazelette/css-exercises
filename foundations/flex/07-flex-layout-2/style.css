@@ -45,6 +45,9 @@ body {
 
 .container{
   display: flex;
+  padding: 48px; /* padding around cards as stated in README.md */
+  flex-wrap: wrap; /* allows cards to wrap in case of smaller screens */
+  gap: 32px; /* space between cards */
 }
 .card {
   border: 1px solid #eee;
