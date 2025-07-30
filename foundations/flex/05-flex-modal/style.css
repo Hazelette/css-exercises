@@ -20,10 +20,11 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  /* added styles appropriately */
   padding: 16px;
   display: flex;
-  flex-direction: column;
-  
+  gap: 16px; /* space between icon and text */
+  /* after this, icon will shrink, so need to prevent it */
 
 }
 
@@ -38,6 +39,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* stop icon from shrinking here */
+  flex-shrink: 0;
 }
 
 .close-button {
@@ -74,9 +77,8 @@ button.cancel {
 }
 .header{
   display: flex;
-  padding: 16px;
   align-items: center;
   justify-content: space-between;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 18px;
 }
